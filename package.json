@@ -4,12 +4,16 @@
   "description": "Simple profile page and login app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Craig Killian",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1",
     "mongodb": "^2.2.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cskillian/keystoke_profile.git"
   }
 }
