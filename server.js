@@ -3,12 +3,12 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname));
 
-app.set('views', __dirname + '/views');
+
 
 app.get('/', function(request, response) {
-  response.render('Views/profile_page.html');
+  response.render('index.html');
 });
 
 app.listen(app.get('port'), function() {
